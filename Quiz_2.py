@@ -34,6 +34,7 @@ risk_free = .10
 N = inds.shape[1]
 equal_weights = round((1/N)*100,2)
 Q4 = equal_weights
+
 print('Weight of Steel:', Q4)
 print("--------------------------------------------------------------")
 
@@ -67,7 +68,6 @@ print("--------------------------------------------------------------")
 
 # Questions 11 to 12. We have to use the same weights as we did from previous
 # questions
-
 port_2018 = data2.loc["2018"][a]
 cov_2018 = port_2018.cov()
 
